@@ -1,0 +1,422 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+ 
+}
+
+header {
+    
+
+    display: flex;
+    width: 100%;
+    background: rgb(3,9,22);
+    background: linear-gradient(180deg, rgba(3,9,22,1) 0%, rgba(3,3,3,1) 100%);
+    justify-content: center;
+
+}
+
+header .container {
+  
+    height: 60px;
+    border-radius: 3px;
+}
+
+header img {
+    height: 120px;
+    
+    
+}
+
+
+header nav ul li{
+    display: inline;
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 13px;
+    font-family: "Titillium Web", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: all ease-in-out 0.3s;
+}
+
+header nav ul li a:hover {
+    color:#C52B30;
+    
+}
+
+
+
+.container {
+
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+   
+
+}
+
+#principal .container {
+
+    height: 650px;
+    max-width: 100%;
+
+    background-image:  url(./img/peb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.3);
+    transition: all ease-in-out 0.3s;
+  
+}
+
+#principal .container img a{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+#principal .container:hover {
+
+    background-image:  url(./img/col.jpg);
+    transition: all ease-in 0.3s;
+}
+
+
+
+#principal .container #orbs {
+    margin: 0 auto;
+    margin-top: 550px;
+    display: flex;
+
+  
+}
+
+.orbs {
+    background-color: #373485;
+    border: 3px solid #fff;
+  
+    display: inline;
+    margin-right: 25px;
+    border-radius: 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+    width: 12px;
+    transition: all ease-in 0.3s;
+}
+
+.orbs:hover {
+    border: 3px solid #C52B30;
+    border-radius: 20%;
+    background-color: #fff;
+    transition: all ease-in 0.3s;
+}
+
+
+#about {
+    background: rgb(3,9,22);
+    background: linear-gradient(0deg, rgba(3,9,22,1) 0%, rgba(0,0,0,1) 100%);
+    display: flex;
+
+ 
+  
+}
+
+#about .container {
+    background-image: none;
+    max-width: 1200px;
+    margin: 200px auto;
+    margin-bottom: 110px;
+  
+  
+
+
+}
+
+#about .container div {
+    height: 300px;
+    border: 7px solid rgba(5, 28, 68, 0.1);
+    border-radius: 3px;
+ 
+}
+
+#about .container div img {
+    height: 100%;
+ 
+}
+
+#about .container #sec-about {
+    border: none;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: right;
+}
+
+
+
+#sec-about h2 {
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: right;
+  
+}
+
+#sec-about p{
+    color: rgb(66, 64, 64);
+    text-align: right;
+}
+
+
+#gallery {
+  
+    background: rgb(3,9,22);
+    background: linear-gradient(180deg, rgba(3,9,22,1) 0%, rgba(3,3,3,1) 100%);
+
+}
+
+#gallery .container {
+   
+    max-width: 100%;
+    color: #fff;
+   
+    flex-direction: column;
+    align-items: flex-start;
+   
+
+}
+
+#gallery .container #title-gallery {
+    width: 400px;
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+
+}
+
+#gallery .container h2 {
+    
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+   
+   
+
+}
+
+
+#gallery .container .space {
+    background-color: rgb(66, 64, 64);
+    rotate: 90deg;
+    width: 3px;
+    height: 100px;
+  
+  
+}
+
+
+#gallery .container #cont-img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.cars div {
+    height: 150px;
+    margin:0 5px;
+    transition: all ease-in-out 0.3s;
+   
+    
+}
+
+.cars div:hover {
+    transform: scale(1.2);
+    
+    filter: drop-shadow(0px 15px 13px rgba(197, 43, 48, 0.6));
+
+}
+
+
+
+.cars div img {
+    height: 100%;
+    border-radius: 3px;
+  
+}
+
+#contact {
+    background: rgb(3,9,22);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(197,43,48,1) 100%);
+    
+}
+
+
+
+#contact .container #form {
+    margin: 300px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+
+form input {
+    width: 250px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 5px;
+    color: black;
+    
+}
+
+input:focus {
+    
+    outline: none;
+    border:  2px solid #373485;
+    transition: all ease-in 0.2s;
+   
+}
+
+
+#contact .container form{
+    display: flex;
+    margin: 15px 0;
+    
+    
+}
+
+
+#contact .container #form a div{
+
+
+    border: 2px solid #fff;
+    border-radius: 3px;
+    width: 100px;
+    margin: 0 auto;
+    transition: all ease-in-out 0.3s;
+    padding: 5px;
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+
+    
+
+}
+
+#contact .container #title-social .space {
+    
+    background-color: rgb(66, 64, 64);
+    width: 3px;
+    height: 250px;
+    
+    
+ 
+}
+
+#contact .container #social {
+    text-align: end;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#contact .container #form a div:hover {
+    background-color: #373485;
+    border: 2px solid #fff;
+    transition: all ease-in-out 0.3s;
+    width: 100%;
+   
+}
+
+
+
+
+#contact .container #social ul li {
+    display: inline;
+    
+   
+}
+
+
+svg {
+    height: 80px;
+}
+g{
+
+    fill:#fff; 
+    transition: all ease-in-out 0.3s;
+    
+   
+}
+
+g:hover {
+    fill:#373485;
+}
+
+footer {
+    background: rgb(3,9,22);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 30%, rgba(197,43,48,1) 100%);
+
+}
+
+footer .container {
+    justify-content: space-between;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+footer img {
+    height: 120px;
+    
+   
+}
+ 
+
