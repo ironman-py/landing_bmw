@@ -249,6 +249,9 @@ header nav ul li a:hover {
     flex-wrap: wrap;
 }
 
+#cont-img {
+    position: relative;
+}
 
 
 .cars div {
@@ -418,5 +421,45 @@ footer img {
     
    
 }
+
+
+.modal {
+    
+
  
+    display: none;
+    transition: all ease-in-out 1s;
+
+
+}
+
+.modal-open{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100dvh;
+    position: fixed;
+    z-index: 20000;
+    background-color: rgba(0, 0, 0, 0.8);
+    scroll-behavior: smooth;
+    
+ 
+   
+}
+
+
+
+.foto {
+    display: block;
+   
+    width: 1000px;
+    height:600px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+
+}
+
 
